@@ -1,1 +1,6 @@
-"# mlops-cardiotocografia" 
+"# MLOps - Cardiotocografia" 
+"Projeto de MLOps para classifica‡Æo de cardiotocografia." 
+"## Tecnologias" 
+"- Python" 
+"- TensorFlow" 
+"- MLflow" 
