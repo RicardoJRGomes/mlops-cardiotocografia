@@ -1,9 +1,18 @@
-import pandas as pd
+import os
 import pytest
+import tensorflow as tf
+import pandas as pd
+import numpy as np
+from sklearn import preprocessing
+from sklearn.model_selection import train_test_split
 from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, InputLayer
 
-from train import (read_data,
+from train import (reset_seeds,
+                   read_data,
+                   process_data,
                    create_model,
+                   config_mlflow,
                    train_model)
 
 
